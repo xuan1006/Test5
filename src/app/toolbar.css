@@ -1,0 +1,37 @@
+.toolbar-container {
+  position: relative;
+}
+
+.toolbar {
+  /*工具列*/
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-left: 1px solid rgba(210, 202, 202, 0.94);
+  border-right: 1px solid rgba(210, 202, 202, 0.94);
+  border-top: 1px solid rgba(210, 202, 202, 0.94);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  margin-bottom: 0;
+}
+
+.toolbar-left,
+.toolbar-right {
+  display: flex;
+  gap: 5px;
+}
+
+.toolbar-left button,
+.toolbar-right button {
+  /*工具列按鈕*/
+  background-color: #ffffff;
+  color: #8f8c8c;
+  border: none;
+  cursor: pointer;
+}
+
+.toolbar-left button:hover,
+.toolbar-right button:hover {
+  /*工具列按鈕碰到後顏色*/
+  background-color: rgb(9, 198, 243);
+}
